@@ -1,5 +1,8 @@
 *node_modules/*
 **node_modules
+node_modules**
+node_modules/**
 /node_modules/
 */node_modules/*
 *node_modules/*
+./reset-api-app/node_modules
