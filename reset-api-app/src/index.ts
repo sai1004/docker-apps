@@ -9,7 +9,7 @@ dotenv.config();
 const todoLsit = require("../mock/todos.json");
 
 console.log("todolist", todoLsit);
-const port = process.env.PORT;
+const port = process.env.PORT ?? 5000;
 
 const initServer = async () => {
   try {
